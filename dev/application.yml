@@ -62,7 +62,6 @@ spring:
   redis:
     host: 45.76.215.59
     port: 6379
-    password: root
     timeout: 90000
 
 eureka:
