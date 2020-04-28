@@ -33,7 +33,7 @@ spring:
     url: jdbc:mysql://rm-bp132w75u10e3ov387o.mysql.rds.aliyuncs.com:3306/youyd?characterEncoding=utf-8&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
     username: zoocode
-    password: '{cipher}AQBg7UnnR4NvH3p4Fx66S/XRUv3LNmBPWK2BKKqH8U8Z8pz5QLb1jbwSNvNF2XI6lblDIIcDdPXgsCG82dSqNMTHugWcVMdOyDX8lf2iXDuxin+e4HDuZB41L+qVJXavFtBlHv7NTt97DyNr7OgEP1P2a1/WOzjOMFxzMN5/y6jxc9eqt2pt4EON2j+pLN1FLUz5hyeceKlvGxLqGqep64WtfkdBNuJQR2CbYuQj41YYVYZxra5oK1rl4jYFW1eI778ef0R2xuRNTLP/8K1zQNnXaiN59K2UaVwsKllb3EcSFaWfU9pOQcyFR7O984XNTI2QQZfl9X3508m66SiRIcd1ulimqhYWPeygt/pOucMp7ZwwKD1Y9YsTj+GyX/OxDv4='
+    password: '{cipher}AQBTJTjAvGdkPHWJrTzwKF+Y+aXFCpRhPnsScNoP2t4Dt4LKDydnSX5vjq8aLzeIfHsBWo2+PE+A35+Be5/np6Vf3eTdU1/WPsu2J70P+1pP5Gl6ALsUkOVIK07SU/5ZDNpeKH6swp6PZv0dYEomqjffqpKm+cBMk7G45jpZvTa87l94RGxeT/2+3swhAm3Lvg04CMjx2yPsa9MsSmG4fbu7UQ9aATO3m87+1/17aKhVC3xkgw/Z6B7ngpeCHckrhxfB/6Wdh5gfFQelcyUlGFmjc2gxqt8ZxUYI2n8PaX+GHWagvwKPz3m8dpzwwlwhTpKVUdxRmaTSPajFJ+vcB4PC38+tItWN32/y5f9BNbBjCcR1nZZYc1d5G1Gk3feSaA62EIF5ePg+QW9wOY9EuJWd'
     initialSize: 10 # 池启动时创建的连接数量
     maxWait: 60000 # 配置获取连接等待超时的时间
     minIdle: 5 # 在不新建连接的条件下，池中保持空闲的最少连接数
@@ -81,9 +81,8 @@ aliyun:
  oss:
    # 确认endpoint里面的请求地址跟bucket是否都一致。 https://mvp.aliyun.com/zhidao/9180
     endpoint: oss-cn-shanghai.aliyuncs.com
-    access-key-id: LTAI4GALwv7m6oZf6nhaY5kv
-    access-key-secret: '{cipher}AQCEXK525w9LRsazwfZ9Ho9WbR9wGKRInBXEcOv1JUzW2I5ZEvGLNj5TrNkrLi74x4eAw5ZZCvAbZ1BFO/F4iYLqmUEalHfWLQbpZ6Ii2kmpV+sqU1W2K6nIXzNSpTXAuclvgk+hSpXssYDsctQdfrbaKddndiqlNfGEQBDlBmyoDamzWvCiERKswITAub36JlypEQQ7JSX6mU34YzKfYB1scp5U/OLXO5RhCpuT6GxPgdDC6h2megLm48APjF5YzZJTH6h6RDESblMuqKofPlGLp2pQNsUKGRPdvQ4ML6Yoipjob/ZQhaD3B7nwxmapHTdZMNyCUE4ke8LcBKfQD/GpP2iB8b+x3FJTulsNmvd1hZIZ3uFDx1sYxt5s01Y9p2HyjSJfQMcDtG3Y38+Hh0Z1'
-
+    access-key-id: LTAI4G45JjVniGFswA7vaAMF
+    access-key-secret: '{cipher}AQCsMXANnQ0jGj4gNa038L5/x4R3hJZKAyadGZ3jQACwk8Uge5dmq1MXcf5YFZsv1kDveFnRIR/ypelfDhIiu9n3KTWyNMSqC3badjp23Q6CwryWG1Q02HOVRupU2zotQqVx10mmAiL+AbZQKN7schJ5SutiR97lE3Dptuzh80XqUATf9aGhBBqnGn6VDoAsKlKfEdS9E70B4wA8IAyYnd8KZM2/evczE27ZXXYQ912BrXnAcgR6ugraLjFSvS5szc2gwecZpwnqQqtRg035tlsBmRwAV847y40f6FuQR0aW/9zxopge1Fhg6GDuZNWj/ZOmOmGAVFoGBU/6S4LGbtbNXMSuuf6KFic783+x8GDzgHxqZdwmZWdQW9b8ti+Iq5KnVZWSUcq8SHUG7+RKn4XN'
 
 # 监控平台：include: "*"表示 暴露所有端点，info, health... 等等
 management:
