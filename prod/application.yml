@@ -57,9 +57,11 @@ spring:
     #     port: 5672
 
   redis:
-    host: 45.76.215.59
+    host: 121.36.158.84
     port: 6379
     timeout: 90000
+    possword: '{cipher}AQBUHacsyC5ONHx5qLC0Cf6jGI+s1GwI3HGzc33tBuiVDZi59oH1U0+q8XMgOg2Ulc7qnoHM+h4gAbmlrnt5UN3oZCxGytnjFZXQeh4LyYnZlBqIVmVR+duJzOa1+NE8zBstN1p8Vrq1munnT8LqO+wy7bzuH8EhWmbRgkFfil04Em+nZ3BEapPdxHtRsY4eySjNV/rK65pVYSrw2mOVtDQ70WkFJdmiqSMNzAOPlmGmk/iUhQpxIy/AKbsimmFhsa/Crk5EpkpBplkmupyo/PliLjStW1pnPfSlDsTxSTl+veTyeyw9rQy/1l2h0bOa9S95JlGwI89xiZR5IEf5vCzRE7nv+KrQSqRmhUV5cXdn4aIYlW9ktYCT6sQQ7chru+o='
+
 
 eureka:
   client: #客户端注册进eureka服务列表内
