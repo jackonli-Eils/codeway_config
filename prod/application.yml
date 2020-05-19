@@ -83,8 +83,9 @@ aliyun:
  oss:
    # 确认endpoint里面的请求地址跟bucket是否都一致。 https://mvp.aliyun.com/zhidao/9180
     endpoint: oss-cn-shanghai.aliyuncs.com
-    access-key-id: LTAI4G45JjVniGFswA7vaAMF
-    access-key-secret: '{cipher}AQCsMXANnQ0jGj4gNa038L5/x4R3hJZKAyadGZ3jQACwk8Uge5dmq1MXcf5YFZsv1kDveFnRIR/ypelfDhIiu9n3KTWyNMSqC3badjp23Q6CwryWG1Q02HOVRupU2zotQqVx10mmAiL+AbZQKN7schJ5SutiR97lE3Dptuzh80XqUATf9aGhBBqnGn6VDoAsKlKfEdS9E70B4wA8IAyYnd8KZM2/evczE27ZXXYQ912BrXnAcgR6ugraLjFSvS5szc2gwecZpwnqQqtRg035tlsBmRwAV847y40f6FuQR0aW/9zxopge1Fhg6GDuZNWj/ZOmOmGAVFoGBU/6S4LGbtbNXMSuuf6KFic783+x8GDzgHxqZdwmZWdQW9b8ti+Iq5KnVZWSUcq8SHUG7+RKn4XN'
+    access-key-id: LTAI4GEKJCtEQgJEKthv6RxG
+    access-key-secret: '{cipher}AQAEXsD6bb8C5tWsX/gCA//gthigzDy6rMIppbnak2yvD1hCX7WCdD/1MeYjD1iVH4oOWbFEMwiCVN4dmj7Yg4amYxwn+CS5Ac0VOqoi1Xk18hGSywigHiPmJMB6MTjnC14miV1KA9C9jhdQNvcv0FKf+lu0UUxfh8Gzu6crTOA3OMXO9WgnWZ8EQo2NFyhnoybAvG9R02pCBw0pw7v0xc+vV29+CzBQvv4rtwRcz0zofkdTlFQK64t6qebOCmo5MfTIWbmXHfIvWa3uYFx7R6VANdIc7ID9f7D/I8zj7BhzPz03f7puXSQ3xJOM6YAyYz4MmLvCb/y2W0bkRV5woHNmLlJoE67NSk7nalzs0tT3lz8HL5NmtI+2TLHd/N5mWJ/JlnpKYnksxly4Y35fpBM+'
+    
 
 # 监控平台：include: "*"表示 暴露所有端点，info, health... 等等
 management:
