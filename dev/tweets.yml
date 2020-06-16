@@ -4,6 +4,7 @@ mybatis-plus:
   global-config:
     db-config:
       table-prefix: "ts_3"
+      table-prefix: "ts_2"
   configuration:
     map-underscore-to-camel-case: true
     cache-enabled: true #配置的缓存的全局开关
