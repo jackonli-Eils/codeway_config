@@ -1,4 +1,4 @@
-2
+3
 mybatis-plus:
   mapper-locations: classpath*:/dao/*.xml
   global-config:
