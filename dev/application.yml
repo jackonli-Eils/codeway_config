@@ -89,7 +89,13 @@ aliyun:
     access-key-id: LTAI4GEKJCtEQgJEKthv6RxG
     access-key-secret: '{cipher}AQAEXsD6bb8C5tWsX/gCA//gthigzDy6rMIppbnak2yvD1hCX7WCdD/1MeYjD1iVH4oOWbFEMwiCVN4dmj7Yg4amYxwn+CS5Ac0VOqoi1Xk18hGSywigHiPmJMB6MTjnC14miV1KA9C9jhdQNvcv0FKf+lu0UUxfh8Gzu6crTOA3OMXO9WgnWZ8EQo2NFyhnoybAvG9R02pCBw0pw7v0xc+vV29+CzBQvv4rtwRcz0zofkdTlFQK64t6qebOCmo5MfTIWbmXHfIvWa3uYFx7R6VANdIc7ID9f7D/I8zj7BhzPz03f7puXSQ3xJOM6YAyYz4MmLvCb/y2W0bkRV5woHNmLlJoE67NSk7nalzs0tT3lz8HL5NmtI+2TLHd/N5mWJ/JlnpKYnksxly4Y35fpBM+'
     
-
+# 监控平台：include: "*"表示 暴露所有端点，info, health... 等等
+management:
+  endpoints:
+    web:
+      exposure:
+        # *在YAML中有特殊的含义，所以如果你想包含（或排除）所有的端点，一定要加引号，如下例所示：
+        include: "*"
 
 
 ### Hystrix 配置，解决Spring Cloud第一次调用失败
