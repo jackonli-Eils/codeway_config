@@ -11,7 +11,7 @@ spring:
         - id: order-service
           uri: lb://micro-knife4j-order
           predicates:
-            - Path=/order-service/**
+            - Path=/order/**
           filters:
             - StripPrefix=1
             
