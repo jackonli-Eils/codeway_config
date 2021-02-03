@@ -3,7 +3,7 @@ spring:
     gateway:
       routes: #配置路由路径
         - id: per_route_timeouts
-        uri: https://example.org
+        uri: lb://user-service
         predicates:
           - name: Path
             args:
