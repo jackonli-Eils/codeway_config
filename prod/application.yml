@@ -33,7 +33,7 @@ spring:
     url: jdbc:mysql://rm-bp132w75u10e3ov387o.mysql.rds.aliyuncs.com:3306/youyd?characterEncoding=utf-8&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
     username: zoocode
-    password: '{cipher}AQBTJTjAvGdkPHWJrTzwKF+Y+aXFCpRhPnsScNoP2t4Dt4LKDydnSX5vjq8aLzeIfHsBWo2+PE+A35+Be5/np6Vf3eTdU1/WPsu2J70P+1pP5Gl6ALsUkOVIK07SU/5ZDNpeKH6swp6PZv0dYEomqjffqpKm+cBMk7G45jpZvTa87l94RGxeT/2+3swhAm3Lvg04CMjx2yPsa9MsSmG4fbu7UQ9aATO3m87+1/17aKhVC3xkgw/Z6B7ngpeCHckrhxfB/6Wdh5gfFQelcyUlGFmjc2gxqt8ZxUYI2n8PaX+GHWagvwKPz3m8dpzwwlwhTpKVUdxRmaTSPajFJ+vcB4PC38+tItWN32/y5f9BNbBjCcR1nZZYc1d5G1Gk3feSaA62EIF5ePg+QW9wOY9EuJWd'
+    password: '{cipher}AQAzJiWdEIl+jevPfIKsQh3vvY28D8p+TgqDOsAWZaOrOsvfOQzbZnoaKx+rkSgZNFkIIUq37wXR+OZyMmi8JVM1PNJjGZsac1NBPVRzoXM9nD3YmME4vFR4GTjhZ1CAbJIClB0mOqXp9m7qco+/B33H2T2WEXAOMzICZluCGzeWDRBxJMsOY12fxKsMn/QBZmzay7F4jPqY4o/lr5ygggCKXYEdWM4SoTfRk+wZZk6p+rNLVMcnUxPv5/mk5OJN0HNhzeduFYR4dwtL+j1FbpphHvdQ0oqB+zAmF+tY55XNn4GevnolrRi9txJ0ptJgw/3L+XlMCGJnExjU2OfvxFOQioTOU1etW6hgXhWXZ/XRs1QPWgZo03G6mWsJAuPfoDo='
     initialSize: 10 # 池启动时创建的连接数量
     maxWait: 60000 # 配置获取连接等待超时的时间
     minIdle: 5 # 在不新建连接的条件下，池中保持空闲的最少连接数
