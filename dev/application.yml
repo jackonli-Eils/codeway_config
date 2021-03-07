@@ -34,9 +34,9 @@ spring:
 
   datasource: # Druid连接池的配置信息
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://rm-bp132w75u10e3ov387o.mysql.rds.aliyuncs.com:3306/youyd?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://bj-cdb-b50en7ie.sql.tencentcdb.com:60895/madaoo?characterEncoding=utf-8&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
-    username: zoocode  
+    username: root  
     password: '{cipher}AQAzJiWdEIl+jevPfIKsQh3vvY28D8p+TgqDOsAWZaOrOsvfOQzbZnoaKx+rkSgZNFkIIUq37wXR+OZyMmi8JVM1PNJjGZsac1NBPVRzoXM9nD3YmME4vFR4GTjhZ1CAbJIClB0mOqXp9m7qco+/B33H2T2WEXAOMzICZluCGzeWDRBxJMsOY12fxKsMn/QBZmzay7F4jPqY4o/lr5ygggCKXYEdWM4SoTfRk+wZZk6p+rNLVMcnUxPv5/mk5OJN0HNhzeduFYR4dwtL+j1FbpphHvdQ0oqB+zAmF+tY55XNn4GevnolrRi9txJ0ptJgw/3L+XlMCGJnExjU2OfvxFOQioTOU1etW6hgXhWXZ/XRs1QPWgZo03G6mWsJAuPfoDo='
     initialSize: 10 # 池启动时创建的连接数量
     maxWait: 60000 # 配置获取连接等待超时的时间
