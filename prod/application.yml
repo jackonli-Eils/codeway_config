@@ -7,11 +7,6 @@ spring:
   # 如果没有aliyun oss 打开这个配置
   #  autoconfigure:
   #    exclude: cn.javaer.aliyun.spring.boot.autoconfigure.oss.OssAutoConfiguration
-  boot:
-    admin:
-      client:
-        url: http://121.36.158.84:9090
-      context-path: /admin
 
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
@@ -116,4 +111,4 @@ feign:
 # feign请求打印日志
 logging:
   level:
-    com.ibole.api: debug
+    com.madao.api: debug
