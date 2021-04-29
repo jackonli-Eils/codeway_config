@@ -1,4 +1,4 @@
-spring:     
+spring:
   servlet:
     # 设置上传文件大小
     multipart:
@@ -7,19 +7,14 @@ spring:
   # 如果没有aliyun oss 打开这个配置
   #  autoconfigure:
   #    exclude: cn.javaer.aliyun.spring.boot.autoconfigure.oss.OssAutoConfiguration
-  boot:
-    admin:
-      client:
-        url: http://localhost:9090
-      context-path: /admin
-      
+
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     database: MYSQL
     show-sql: true
     open-in-view: true
     hibernate:
-    #  ddl-auto: none # 关闭每次启动自动删除表数据
+      #  ddl-auto: none # 关闭每次启动自动删除表数据
       ddl-auto: update
     properties:
       hibernate.id.new_generator_mappings: true
@@ -29,14 +24,14 @@ spring:
       hibernate.generate_statistics: false
       # 运行程序会校验数据与数据库的字段类型是否相同，不同会报错。
       # hibernate.hbm2ddl.auto: validate
-      hibernate: 
+      hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
 
   datasource: # Druid连接池的配置信息
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://bj-cdb-b50en7ie.sql.tencentcdb.com:60895/madaoo?characterEncoding=utf-8&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
-    username: root  
+    username: root
     password: '{cipher}AQAzJiWdEIl+jevPfIKsQh3vvY28D8p+TgqDOsAWZaOrOsvfOQzbZnoaKx+rkSgZNFkIIUq37wXR+OZyMmi8JVM1PNJjGZsac1NBPVRzoXM9nD3YmME4vFR4GTjhZ1CAbJIClB0mOqXp9m7qco+/B33H2T2WEXAOMzICZluCGzeWDRBxJMsOY12fxKsMn/QBZmzay7F4jPqY4o/lr5ygggCKXYEdWM4SoTfRk+wZZk6p+rNLVMcnUxPv5/mk5OJN0HNhzeduFYR4dwtL+j1FbpphHvdQ0oqB+zAmF+tY55XNn4GevnolrRi9txJ0ptJgw/3L+XlMCGJnExjU2OfvxFOQioTOU1etW6hgXhWXZ/XRs1QPWgZo03G6mWsJAuPfoDo='
     initialSize: 10 # 池启动时创建的连接数量
     maxWait: 60000 # 配置获取连接等待超时的时间
@@ -83,12 +78,12 @@ eureka:
 # 暂无可用图床，自行对接图床
 # 阿里云OSS对象存储，如果没有aliyun oss 注释这个配置
 aliyun:
- oss:
-   # 确认endpoint里面的请求地址跟bucket是否都一致。 https://mvp.aliyun.com/zhidao/9180
+  oss:
+    # 确认endpoint里面的请求地址跟bucket是否都一致。 https://mvp.aliyun.com/zhidao/9180
     endpoint: oss-cn-shanghai.aliyuncs.com
     access-key-id: LTAI4GEKJCtEQgJEKthv6RxG
     access-key-secret: '{cipher}AQAEXsD6bb8C5tWsX/gCA//gthigzDy6rMIppbnak2yvD1hCX7WCdD/1MeYjD1iVH4oOWbFEMwiCVN4dmj7Yg4amYxwn+CS5Ac0VOqoi1Xk18hGSywigHiPmJMB6MTjnC14miV1KA9C9jhdQNvcv0FKf+lu0UUxfh8Gzu6crTOA3OMXO9WgnWZ8EQo2NFyhnoybAvG9R02pCBw0pw7v0xc+vV29+CzBQvv4rtwRcz0zofkdTlFQK64t6qebOCmo5MfTIWbmXHfIvWa3uYFx7R6VANdIc7ID9f7D/I8zj7BhzPz03f7puXSQ3xJOM6YAyYz4MmLvCb/y2W0bkRV5woHNmLlJoE67NSk7nalzs0tT3lz8HL5NmtI+2TLHd/N5mWJ/JlnpKYnksxly4Y35fpBM+'
-    
+
 # 监控平台：include: "*"表示 暴露所有端点，info, health... 等等
 management:
   health:
